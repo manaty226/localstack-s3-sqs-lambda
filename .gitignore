@@ -37,3 +37,6 @@ terraform.rc
 
 # Ignore localstack volume
 **/volume/*
+
+# Ignore lambda artifacts
+**/lambda/build/*
