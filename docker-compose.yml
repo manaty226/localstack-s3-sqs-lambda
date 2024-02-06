@@ -12,7 +12,7 @@ services:
       - AWS_ACCESS_KEY_ID=test
       - AWS_SECRET_ACCESS_KEY=test
       - AWS_DEFAULT_REGION=ap-southeast-1
-      - SERVICES=s3,lambda,sqs
+      - SERVICES=s3,lambda,sqs,iam
       - DEBUG=1
     volumes:
       - "${LOCALSTACK_DATA_DIR:-./volume}:/var/lib/localstack"
